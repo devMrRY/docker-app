@@ -4,5 +4,8 @@ services:
     build: .
     ports:
       - "9000:9000"
+    volumes:
+      - .:/app
+      - /app/node_modules
     env_file:
       - ./.env

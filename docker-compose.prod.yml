@@ -4,5 +4,6 @@ services:
     build: .
     ports:
       - "9000:9000"
-    env_file:
-      - ./.env
+    environment:
+      - NODE_ENV=production
+    command: node server.js
