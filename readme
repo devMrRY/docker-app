@@ -1,0 +1,6 @@
+HOW TO RUN THE PROJECT
+
+step 1: sudo systemctl enable docker
+step 2: sudo docker-compose up
+
+** Note: To reflect changes need to rebuild the app by using sudo docker-compose up --build
